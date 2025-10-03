@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Title  -->
+        <title>ProStroyGuide</title>
+
+        <!-- Favicon  -->
+        <link rel="icon" href="img/core-img/favicon.ico" />
+
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="medilife-load"></div>
+        </div>
+
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area is-sticky" style="top: 0">
+            <!-- Main Header Area -->
+            <div class="main-header-area" id="stickyHeader">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 h-100">
+                            <div class="main-menu h-100">
+                                <nav class="navbar h-100 navbar-expand-lg">
+                                    <!-- Logo Area  -->
+                                    <a class="navbar-brand" href="index.html">
+                                        <h2 class="text-white">
+                                            ProStroyGuide
+                                        </h2>
+                                    </a>
+
+                                    <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#menuInmobiliaria"
+                                        aria-controls="menuInmobiliaria"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                    >
+                                        <span
+                                            class="navbar-toggler-icon"
+                                        ></span>
+                                    </button>
+
+                                    <div
+                                        class="collapse navbar-collapse"
+                                        id="menuInmobiliaria"
+                                    >
+                                        <!-- Menu Area -->
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link"
+                                                    href="index.html"
+                                                    >Главная
+                                                    <span class="sr-only"
+                                                        >(текущая)</span
+                                                    ></a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link"
+                                                    href="about-us.html"
+                                                    >О компании</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link"
+                                                    href="estate.html"
+                                                    >Проекты</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link"
+                                                    href="blog.html"
+                                                    >Блог</a
+                                                >
+                                            </li>
+                                            <li class="nav-item active">
+                                                <a
+                                                    class="nav-link"
+                                                    href="contact.html"
+                                                    >Контакты</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
+
+        <!-- ***** Breadcumb Area Start ***** -->
+        <section
+            class="breadcumb-area bg-img gradient-background-overlay"
+            style="background-image: url(img/bg-img/breadcumb6.jpg)"
+        >
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="breadcumb-content">
+                            <h3 class="breadcumb-title">Связаться с нами</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Breadcumb Area End ***** -->
+
+        <section class="medilife-contact-area section-padding-100">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Form Area -->
+                    <div class="col-12 col-lg-6">
+                        <div class="contact-form">
+                            <h5 class="mb-50">Отправьте нам сообщение</h5>
+
+                            <form action="thanks.html" method="get">
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="contact-name"
+                                        placeholder="Имя"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="Электронная почта"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        style="width: 100%"
+                                        type="text"
+                                        inputmode="numeric"
+                                        pattern="[0-9]+"
+                                        class="form-control"
+                                        id="phone"
+                                        placeholder="Номер телефона"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <textarea
+                                        class="form-control"
+                                        name="message"
+                                        id="message"
+                                        cols="30"
+                                        rows="10"
+                                        placeholder="Сообщение о вашем проекте строительства"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="btn medilife-btn"
+                                    id="submit"
+                                >
+                                    Отправить сообщение
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="content-sidebar">
+                            <h5 class="mb-3">Наш офис</h5>
+                            <p>
+                                +77027928833 <br />
+                                pro_stroy_guide@gmail.com <br />
+                                Сарыарқа даңғылы 41 ВП 5, Астана 020000,
+                                Казахстан
+                            </p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2288.243360927198!2d71.39772293238904!3d51.17792665782117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245871a80cf1f57%3A0x2b6e3e1ddb3f8af!2sAstanabytservis!5e0!3m2!1suk!2sua!4v1759500050367!5m2!1suk!2sua"
+                                width="100%"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Footer Area Start ***** -->
+        <footer class="footer-area section-padding-100">
+            <!-- Main Footer Area -->
+            <div class="main-footer-area mb-3">
+                <div class="container">
+                    <div class="row">
+                        <!-- О компании -->
+                        <div class="col-12 col-sm-6 col-xl-4">
+                            <div class="footer-widget-area">
+                                <div class="footer-logo">
+                                    <a class="navbar-brand" href="index.html">
+                                        <h2 class="text-white">
+                                            ProStroyGuide
+                                        </h2>
+                                    </a>
+                                </div>
+                                <p>
+                                    Мы предлагаем профессиональные решения по
+                                    строительству домов под ключ. Подбор
+                                    материалов, контроль бюджета, юридические
+                                    консультации и современные технологии — все
+                                    это для вашего удобства и безопасности.
+                                    Свяжитесь с нами, чтобы получить
+                                    персонализированную поддержку на каждом
+                                    этапе строительства.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Полезные ссылки -->
+                        <div class="col-12 col-sm-6 col-xl-4">
+                            <div class="footer-widget-area">
+                                <div class="widget-title">
+                                    <h6>Полезные ссылки</h6>
+                                </div>
+                                <ul>
+                                    <p>
+                                        <li>
+                                            <a href="index.html">Главная</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li>
+                                            <a href="about-us.html">О нас</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li>
+                                            <a href="privacy-policy.html"
+                                                >Политика конфиденциальности</a
+                                            >
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li>
+                                            <a href="terms-of-use.html"
+                                                >Условия использования</a
+                                            >
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li>
+                                            <a href="cookie-policy.html"
+                                                >Политика cookies</a
+                                            >
+                                        </li>
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Контакты -->
+                        <div class="col-12 col-sm-6 col-xl-4">
+                            <div class="footer-widget-area">
+                                <div class="widget-title">
+                                    <h6>Контакты</h6>
+                                </div>
+                                <div class="single-emergency-helpline mb-50">
+                                    <p>
+                                        +77027928833 <br />
+                                        pro_stroy_guide@gmail.com <br />
+                                        Сарыарқа даңғылы 41 ВП 5, Астана 020000,
+                                        Казахстан
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ***** Footer Area End ***** -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование Cookies
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует
+                    <a href="cookie-policy.html">политику cookies</a> для
+                    обеспечения лучшего опыта при планировании строительства и
+                    выборе материалов для вашего дома.
+                    <a href="privacy-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- jQuery (Necessary for All JavaScript Plugins) -->
+        <script src="js/jquery/jquery-2.2.4.min.js"></script>
+        <!-- Popper js -->
+        <script src="js/popper.min.js"></script>
+        <!-- Bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Plugins js -->
+        <script src="js/plugins.js"></script>
+        <!-- Active js -->
+        <script src="js/active.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
